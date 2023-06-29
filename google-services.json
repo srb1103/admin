@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "806649479707",
+    "firebase_url": "https://lmsbykotcode-175f0-default-rtdb.firebaseio.com",
+    "project_id": "lmsbykotcode-175f0",
+    "storage_bucket": "lmsbykotcode-175f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806649479707:android:3a8b1325dd597ec6f7eebe",
+        "android_client_info": {
+          "package_name": "in.kotcode.emezy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4UiUuyWfr-VYr1SwQ8ZXQU9ajjgbhEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806649479707:android:481d3bc7ed8d4b97f7eebe",
+        "android_client_info": {
+          "package_name": "in.kotcode.emezyteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4UiUuyWfr-VYr1SwQ8ZXQU9ajjgbhEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806649479707:android:c866ede89705cb25f7eebe",
+        "android_client_info": {
+          "package_name": "in.kotcode.hida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb4UiUuyWfr-VYr1SwQ8ZXQU9ajjgbhEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806649479707-7256apbl95vr0nbjadjo3kort9t2l3gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

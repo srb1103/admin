@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "lms-master",
-    "slug": "lms-master",
-    "version": "1.0.0",
+    "name": "Emezy",
+    "slug": "emezy",
+    "version": "6.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -18,16 +18,26 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "in.kotcode.emezy",
+      "buildNumber": "6.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "in.kotcode.emezy",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09badb82-7959-4087-bf17-b3e1e117aeb3"
+      }
     }
   }
 }
