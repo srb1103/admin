@@ -2,7 +2,7 @@
   "expo": {
     "name": "Emezy",
     "slug": "emezy",
-    "version": "6.0.0",
+    "version": "6.0.3",
     "orientation": "portrait",
     "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
@@ -19,13 +19,13 @@
     ],
     "ios": {
       "bundleIdentifier": "in.kotcode.emezy",
-      "buildNumber": "6.0.0",
+      "buildNumber": "6.0.3",
       "supportsTablet": true
     },
     "android": {
       "package": "in.kotcode.emezy",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 6,
+      "versionCode": 603,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

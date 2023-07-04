@@ -16,7 +16,7 @@ export default function Block(props){
                     <Text style={styles.heading}>{heading}</Text>
                     {text && <Text style={styles.text}>{text}</Text>}
                 </View>
-                {fun && <Image style={styles.icon} source={require('../assets/left.png')}/>}
+                {fun && <Image style={styles.icon} source={require('../assets/right.png')}/>}
             </View>
             {bg && <View style={{position:'absolute',top:0,left:0,height:'200%',width:width,backgroundColor:Colors.blue,zIndex:-1,opacity:.1}}/>}
         </TouchableOpacity>
@@ -25,7 +25,7 @@ export default function Block(props){
 
 const styles = StyleSheet.create({
     wrap:{padding: 3, paddingVertical: 15, flexDirection: 'row', alignItems: 'center', marginVertical: 2},
-    icon:{height: RFValue(20), tintColor: 'grey',resizeMode:'contain',rotation:180},
+    icon:{height: RFValue(20), tintColor: 'grey',resizeMode:'contain'},
     block_det:{flexDirection:'row', alignItems: 'center', justifyContent:'space-between', flex: 1, marginLeft: 10},
     heading:{fontSize: RFValue(16), color: Colors.black,width:'90%'},
     text:{fontSize: RFValue(11), color: Colors.lblack},

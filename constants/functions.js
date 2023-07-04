@@ -26,19 +26,30 @@ export function makeDate(date){
     if(month<9){month = `0${month}`}
     return new Date(`${year}-${month}-${day}`)
 }
+export function makeDate1(date){
+    let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+    let sp = date.split('-')
+    let n = sp[1]
+    let dt = `${sp[2]} ${months[n-1]}, ${sp[0]}`
+    return dt.replace('"','')
+}
 export function formatTime(obj){
     let {seconds} = obj
-    let d = new Date(seconds * 1000).toLocaleString(undefined, {timeZone: 'Asia/Kolkata'});
-    let str = JSON.stringify(d).split(' ')
-    let day = str[0].replace('"','')
-    let month = str[1]
-    let date = str[2]
-    let time = str[3].split(':')
-    // let year = str[4]
-    let hr = parseInt(time[0])
-    let mn = time[1]
-    let am = 'AM'
-    if(hr>11){am = 'PM'}
-    if(hr == 0){hr = 12}
-    return `${day}, ${month} ${date} (${hr}:${mn} ${am})`
+    if(seconds){
+        let d = new Date(seconds * 1000).toLocaleString(undefined, {timeZone: 'Asia/Kolkata'});
+        let str = d.split(', ')
+        let date = str[0]
+        let time = str[1]
+        let dt = setDate(date)
+        let t = time.split(':')
+        let hr = parseInt(t[0])
+        let mn = t[1]
+        let am = 'AM'
+        if(hr>11){am = 'PM'}
+        if(hr == 0){hr = 12}
+        return `${dt}, (${hr}:${mn} ${am})`
+    }else{
+        let d = obj.split('T')
+        return(makeDate1(d[0]))
+    }
 }
